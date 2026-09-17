@@ -13,4 +13,8 @@ public class BiscoitoDecorado extends Biscoito {
         super(sabor, formato, cor);
         this.decoracao = decoracao;
     }
+    //Polimorfismo
+    @Override
+    public void preparar(){
+        IO.println("Preparando biscoito e adicionando decorando");
 }
