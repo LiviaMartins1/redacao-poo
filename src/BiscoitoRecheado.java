@@ -14,6 +14,7 @@ public class BiscoitoRecheado extends Biscoito {
                 '}';
     }
     //Sobreescrever
+    //Polimorfismo
     @Override
     public void preparar(){
         IO.println("Preparando biscoito e adicionando recheio");
